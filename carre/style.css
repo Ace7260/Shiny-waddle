@@ -1,0 +1,145 @@
+/*
+https://ace7260.github.io/
+*/
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    height: 100vh;
+    background-color: #333;
+}
+
+.containeur {
+    width: 600px;
+    height: 600px;
+    background-color: white;
+    display: flex;
+    flex-wrap: wrap;
+    border-radius: 10px;
+}
+
+.carre {
+    background-color: rgb(195, 186, 103);
+    width: 300px;
+    height: 300px;
+    /* border: 1px solid black; */
+    border-radius: 10px 0 10px 0;
+}
+
+.carre1 {
+    background-color: white;
+    width: 300px;
+    height: 300px;
+    /* border: 1px solid white; */
+    border-radius: 10px;
+}
+
+.c1,
+.c2,
+.c3,
+.c4 {
+    position: relative;
+}
+
+:root {
+    --width: 70px;
+}
+
+.c1::before {
+    content: "";
+    position: absolute;
+    width: var(--width);
+    height: 70px;
+    background-color: rgb(195, 186, 103);
+    bottom: 0;
+    right: 0;
+    border-top-left-radius: 100%;
+}
+
+.c2::before {
+    content: "";
+    position: absolute;
+    width: var(--width);
+    height: 70px;
+    background-color: white;
+    bottom: 0;
+    left: 0;
+    border-top-right-radius: 100%;
+}
+
+.c3::before {
+    content: "";
+    position: absolute;
+    width: var(--width);
+    height: 70px;
+    background-color: white;
+    top: 0;
+    right: 0;
+    border-bottom-left-radius: 100%;
+}
+
+.c4::before {
+    content: "";
+    position: absolute;
+    width: var(--width);
+    height: 70px;
+    background-color: rgb(195, 186, 103);
+    top: 0;
+    left: 0;
+    border-bottom-right-radius: 100%;
+}
+
+.c1::after {
+    content: "";
+    position: absolute;
+    width: var(--width);
+    height: 70px;
+    background-color: white;
+    bottom: 0;
+    right: 0;
+    border-bottom-right-radius: 100%;
+    border-top-left-radius: 100%;
+}
+
+.c2::after {
+    content: "";
+    position: absolute;
+    width: var(--width);
+    height: 70px;
+    background-color: rgb(195, 186, 103);
+    bottom: 0;
+    left: 0;
+    border-top-right-radius: 100%;
+    border-bottom-left-radius: 100%;
+}
+
+.c3::after {
+    content: "";
+    position: absolute;
+    width: var(--width);
+    height: 70px;
+    background-color: rgb(195, 186, 103);
+    top: 0;
+    right: 0;
+    border-bottom-left-radius: 100%;
+    border-top-right-radius: 100%;
+}
+
+.c4::after {
+    content: "";
+    position: absolute;
+    width: var(--width);
+    height: 70px;
+    background-color: white;
+    top: 0;
+    left: 0;
+    border-bottom-right-radius: 100%;
+    border-top-left-radius: 100%;
+}
