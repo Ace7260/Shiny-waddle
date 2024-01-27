@@ -1,0 +1,193 @@
+/*
+https://ace7260.github.io/
+*/
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #333;
+    height: 100vh;
+}
+
+.containeur {
+    width: 600px;
+    height: 600px;
+    background-color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 10px;
+}
+
+.tete {
+    width: 150px;
+    height: 260px;
+    background-color: rgb(22, 19, 19);
+    border-radius: 30%;
+    display: flex;
+    justify-content: center;
+}
+
+.visage {
+    width: 100px;
+    height: 167px;
+    border-radius: 44%;
+    background-color: burlywood;
+    margin-top: 19px;
+    position: relative;
+}
+
+.cils {
+    left: 17px;
+    position: absolute;
+    top: 46px;
+    height: 3px;
+    width: 20px;
+    background-color: black;
+}
+
+.cils1 {
+    right: 17px;
+    position: absolute;
+    top: 46px;
+    height: 3px;
+    width: 20px;
+    background-color: black;
+}
+
+.oeil {
+    width: 21px;
+    height: 21px;
+    border-radius: 50%;
+    background-color: white;
+    right: 17px;
+    position: absolute;
+    top: 55px;
+}
+
+.oeil1 {
+    width: 21px;
+    height: 21px;
+    border-radius: 50%;
+    background-color: white;
+    left: 17px;
+    position: absolute;
+    top: 55px;
+}
+
+.noir {
+    width: 16px;
+    height: 16px;
+    border-radius: 50%;
+    background-color: #222;
+    position: absolute;
+    bottom: 3px;
+}
+
+.blanc {
+    width: 6px;
+    height: 6px;
+    border-radius: 50%;
+    background-color: black;
+    position: absolute;
+    bottom: 5px;
+    right: 5px;
+}
+
+.point {
+    top: 2px;
+    left: 1px;
+    width: 1.5px;
+    height: 1.5px;
+    border-radius: 50%;
+    position: absolute;
+    background-color: white;
+}
+
+.right {
+    right: 4px;
+}
+
+.left {
+    left: 4px;
+}
+
+.nez {
+    border-radius: 100px;
+    width: 15px;
+    height: 8px;
+    background-color: rgb(215, 107, 107);
+    position: absolute;
+    top: 61%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.bouche {
+    width: 50px;
+    height: 50px;
+    /* background-color: wheat; */
+    position: absolute;
+    top: 68%;
+    left: 27%;
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+}
+
+.levre {
+    margin-top: 10px;
+    margin-left: 7px;
+    width: 18px;
+    height: 9px;
+    background-color: red;
+    border-top-right-radius: 100px;
+    border-top-left-radius: 100px;
+    position: relative;
+    z-index: 2;
+}
+
+.levre::before {
+    content: "";
+    width: 19px;
+    height: 9px;
+    position: absolute;
+    background-color: red;
+    border-top-right-radius: 100px;
+    border-top-left-radius: 100px;
+    transform: translate(-80%);
+    z-index: 2;
+}
+
+.dent {
+    right: 13px;
+    position: absolute;
+    width: 33px;
+    height: 23px;
+    top: 15px;
+    background-color: white;
+    z-index: 1;
+    border-bottom-right-radius: 20px;
+    border-bottom-left-radius: 19px;
+    border-top-right-radius: 4%;
+    border-top-left-radius: 28%;
+}
+
+.petLevre {
+    width: 18px;
+    height: 9px;
+    position: absolute;
+    bottom: 6px;
+    right: 21px;
+    background-color: red;
+    border-top-right-radius: 100px;
+    border-top-left-radius: 100px;
+    transform: rotate(180deg);
+    z-index: 2;
+}
