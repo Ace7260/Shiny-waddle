@@ -1,0 +1,226 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+:root {
+    --night: grey
+}
+
+body {
+    background: rgba(0, 0, 0, 0.835);
+    overflow: hidden;
+}
+
+.containeur {
+    width: 600px;
+    height: 350px;
+    margin: 35px 0;
+    background-color: rgba(255, 170, 0, 0.816);
+    border-top-right-radius: 200px;
+    border-top-left-radius: 50px;
+    border-bottom-left-radius: 50px;
+    border-bottom-right-radius: 150px;
+    position: relative;
+    transition: all ease-in 4s;
+    animation: terr 4s ease-in-out infinite;
+}
+
+@keyframes terr {
+    to {
+        /* transform: translateX(90vw); */
+    }
+}
+
+.rectangle {
+    width: 600px;
+    height: 200px;
+    margin: 50% auto;
+    background-color: black;
+    border-top-right-radius: 200px;
+    border-top-left-radius: 50px;
+    padding-top: 10px;
+}
+
+.pneus1 {
+    width: 90px;
+    height: 45px;
+    border-top-right-radius: 50px;
+    border-top-left-radius: 50px;
+    position: absolute;
+    right: 10px;
+    bottom: 2px;
+    background-color: brown;
+    transform: rotate(-20deg);
+    z-index: 1;
+}
+
+.pns {
+    width: 75px;
+    height: 75px;
+    background-color: black;
+    border-radius: 50%;
+    position: absolute;
+    right: 10px;
+    top: 310px;
+    z-index: -5;
+    border: 5px dashed rgb(13, 236, 72);
+    animation: plan 3s linear infinite;
+}
+
+.point1 {
+    width: 20px;
+    height: 20px;
+    border-radius: 50%;
+    position: absolute;
+    background-color: rgb(220, 19, 19);
+    z-index: 56;
+    top: 100%;
+    right: 50%;
+    transform: translate(50%, -50%);
+}
+
+.pns1 {
+    width: 90px;
+    height: 45px;
+    border-top-right-radius: 50px;
+    border-top-left-radius: 50px;
+    position: absolute;
+    background-color: brown;
+    /* transform: rotate(-20deg); */
+    left: 30px;
+    bottom: 10px;
+    z-index: 55;
+}
+
+.pneus2 {
+    width: 80px;
+    height: 80px;
+    background-color: black;
+    border-radius: 50%;
+    left: 35px;
+    position: absolute;
+    bottom: -35px;
+    border: 5px dashed rgb(13, 236, 72);
+    animation: plan 3s linear infinite;
+}
+
+.point {
+    width: 20px;
+    height: 20px;
+    border-radius: 50%;
+    position: absolute;
+    background-color: rgb(220, 19, 19);
+    z-index: 2;
+    top: 50%;
+    right: 50%;
+    transform: translate(50%, -50%);
+}
+
+.containeur::before {
+    content: "";
+    width: 140px;
+    height: 140px;
+    background-color: black;
+    position: absolute;
+    right: 315px;
+    top: 205px;
+    border-bottom-left-radius: 80px;
+    border-bottom-right-radius: 10px;
+}
+
+.porte {
+    height: 190px;
+    width: 140px;
+    background-color: var(--night);
+    margin-left: 145px;
+    border-top-left-radius: 20px;
+    position: relative;
+    /* border-right: 3px solid rgb(114, 114, 74); */
+}
+
+.porte::before {
+    content: "";
+    width: 120px;
+    height: 330px;
+    background-color: var(--night);
+    position: absolute;
+    right: -130px;
+    border-top-right-radius: 5px;
+    border-bottom-right-radius: 10px;
+}
+
+.chaise {
+    width: 50px;
+    height: 8px;
+    background-color: black;
+    position: absolute;
+    bottom: -50px;
+    right: -60px;
+    border-top-right-radius: 5px;
+    border-bottom-right-radius: 5px;
+}
+
+.vitre {
+    width: 170px;
+    height: 180px;
+    background-color: var(--night);
+    position: absolute;
+    top: 13px;
+    right: 10px;
+    border-top-right-radius: 250px;
+    padding-right: 10px;
+    /* border-top-left-radius: 50px; */
+}
+
+.terre {
+    z-index: -99;
+    width: 100%;
+    height: 100vh;
+    background-color: #525252d7;
+    transform: skew(0deg);
+    filter: saturate(10);
+    box-shadow: 10px -1px 20px rgba(180, 173, 65, 0.767);
+    border: dotted 5px rgb(235, 28, 28);
+    /* margin-top: -18%; */
+}
+
+/* @keyframes plan {
+    to {
+        transform: rotate(360deg);
+    }
+} */
+
+.lampe {
+    width: 20px;
+    height: 30px;
+    background-color: rgba(192, 72, 25, 0.918);
+    display: inline;
+    position: absolute;
+    right: 0;
+    bottom: 80px;
+    border-radius: 5px;
+}
+
+.lampe::before {
+    content: "";
+    border-left: 45deg;
+    border-bottom-right-radius: 500px;
+    width: 900px;
+    height: 850px;
+    background-color: rgb(190, 190, 216);
+    /* position: absolute; */
+    position: absolute;
+    left: 180px;
+    top: -430px;
+    transform: rotate(-45deg);
+    /* transform: scale(0); */
+    filter: blur(20px);
+    box-shadow: 0px 0 50px gray;
+}
+
+.main {
+    display: none;
+    background: linear-gradient(white 50%, red 50%);
+}
