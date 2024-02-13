@@ -20,15 +20,21 @@ In the skinning challenge, you'll be tasked with styling various elements of a w
 
 ### 4. Tuktuk Challenge
 
-In the skinning challenge, you'll be tasked with styling various elements of a web page to create a cohesive and visually appealing theme. Use HTML and CSS to modify the appearance of text, buttons, backgrounds, and other components. Refer to the `skin.png` image in the `images` directory for design inspiration.
+In the skinning challenge, you'll be tasked with styling various elements of a web page to create a cohesive and visually appealing theme. Use HTML and CSS to modify the appearance of text, buttons, backgrounds, and other components. Refer to the `tuktuk.png` image in the `images` directory for design inspiration.
 
-![skin](https://github.com/Ace7260/shiny-waddle/blob/main/images/tuktuk.png)
+![tuktuk](https://github.com/Ace7260/shiny-waddle/blob/main/images/tuktuk.png)
 
 ### 4. Snake Game template Challenge
 
-In the skinning challenge, you'll be tasked with styling various elements of a web page to create a cohesive and visually appealing theme. Use HTML and CSS to modify the appearance of text, buttons, backgrounds, and other components. Refer to the `skin.png` image in the `images` directory for design inspiration.
+In the skinning challenge, you'll be tasked with styling various elements of a web page to create a cohesive and visually appealing theme. Use HTML and CSS to modify the appearance of text, buttons, backgrounds, and other components. Refer to the `snake.png` image in the `images` directory for design inspiration.
 
-![skin](https://github.com/Ace7260/shiny-waddle/blob/main/images/snake.png)
+![snake game](https://github.com/Ace7260/shiny-waddle/blob/main/images/snake.png)
+
+### 4. Text animation Challenge
+
+In the text animation challenge, you'll be tasked with styling various elements of a web page to create a cohesive and visually appealing theme. Use HTML and CSS to modify the appearance of text, buttons, backgrounds, and other components. Refer to the `text-animation.png` image in the `images` directory for design inspiration.
+
+![text animation](https://github.com/Ace7260/shiny-waddle/blob/main/images/text-animation.png)
 
 ## Instructions
 
