@@ -36,6 +36,12 @@ In the text animation challenge, you'll be tasked with styling various elements 
 
 ![text animation](https://github.com/Ace7260/shiny-waddle/blob/main/images/text-animation.png)
 
+### 4. Google Challenge
+
+In the Google animation neomorphisme challenge, you'll be tasked with styling various elements of a web page to create a cohesive and visually appealing theme. Use HTML and CSS to modify the appearance of text, buttons, backgrounds, and other components. Refer to the `text-animation.png` image in the `images` directory for design inspiration.
+
+![Google](https://github.com/Ace7260/shiny-waddle/blob/main/images/google.png)
+
 ## Instructions
 
 1. Choose a challenge you'd like to work on.
