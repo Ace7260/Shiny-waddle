@@ -11,13 +11,19 @@ In this challenge, you'll be tasked with creating visually appealing buttons usi
 
 For this challenge, your objective is to design a square root calculator interface using HTML and CSS. Make sure the interface is user-friendly and aesthetically pleasing. Take a look at the `square-root.png` image in the `images` directory to get an idea of the desired layout.
 
-![Alt Text](https://github.com/Ace7260/shiny-waddle/blob/main/images/square-root.png)
+![square root](https://github.com/Ace7260/shiny-waddle/blob/main/images/square-root.png)
 
 ### 3. Skinning Challenge
 
 In the skinning challenge, you'll be tasked with styling various elements of a web page to create a cohesive and visually appealing theme. Use HTML and CSS to modify the appearance of text, buttons, backgrounds, and other components. Refer to the `skin.png` image in the `images` directory for design inspiration.
 
-![Skinning Challenge Example](./skinning-challenge/images/skin.png)
+![skin](https://github.com/Ace7260/shiny-waddle/blob/main/images/skin.png)
+
+### 4. Tuktuk Challenge
+
+In the skinning challenge, you'll be tasked with styling various elements of a web page to create a cohesive and visually appealing theme. Use HTML and CSS to modify the appearance of text, buttons, backgrounds, and other components. Refer to the `skin.png` image in the `images` directory for design inspiration.
+
+![skin](https://github.com/Ace7260/shiny-waddle/blob/main/images/tuktuk.png)
 
 ## Instructions
 
