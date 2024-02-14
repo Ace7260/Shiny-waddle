@@ -4,7 +4,7 @@
 
 In this challenge, you'll be tasked with creating visually appealing buttons using HTML and CSS. Your goal is to make buttons that are intuitive, responsive, and eye-catching. Refer to the `button.png` image in the `images` directory for design inspiration.
 
-[![Button challenge](https://drive.google.com/uc?export=download&id=https://drive.google.com/file/d/1Q0LBruR0Z9QrWKBV5TLqiy5M7GamXZPO/view)](https://drive.google.com/file/d/https://drive.google.com/file/d/1Q0LBruR0Z9QrWKBV5TLqiy5M7GamXZPO/view)
+[Click here to watch the video preview](https://drive.google.com/file/d/1Q0LBruR0Z9QrWKBV5TLqiy5M7GamXZPO/preview)
 
 ### 2. Square Root Challenge
 
