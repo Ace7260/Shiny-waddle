@@ -2,52 +2,54 @@
 
 ### 1. Button Challenge
 
-In this challenge, you'll be tasked with creating visually appealing buttons using HTML and CSS. Your goal is to make buttons that are intuitive, responsive, and eye-catching. Refer to the `button.png` image in the `images` directory for design inspiration.
+In this challenge, you'll be tasked with creating visually appealing buttons using HTML and CSS. Your goal is to make buttons that are intuitive and eye-catching. Additionally, you'll implement animations for hover and active states to enhance user interaction. Refer to the `button.png` image in the `images` directory for design inspiration.
 
-![square root](https://github.com/Ace7260/shiny-waddle/blob/main/images/button.png)
+![Button Challenge](https://github.com/Ace7260/shiny-waddle/blob/main/images/button.png)
 
 [👉 Click here to watch the video preview](https://drive.google.com/file/d/1Q0LBruR0Z9QrWKBV5TLqiy5M7GamXZPO/preview)
 
 ### 2. Square Root Challenge
 
-For this challenge, your objective is to design a square root calculator interface using HTML and CSS. Make sure the interface is user-friendly and aesthetically pleasing. Take a look at the `square-root.png` image in the `images` directory to get an idea of the desired layout.
+For this challenge, your objective is to design a square root interface using HTML and CSS. Refer to the `square-root.png` image in the `images` directory for design inspiration.
 
-![square root](https://github.com/Ace7260/shiny-waddle/blob/main/images/square-root.png)
+![Square Root Challenge](https://github.com/Ace7260/shiny-waddle/blob/main/images/square-root.png)
 
 ### 3. Skinning Challenge
 
-In the skinning challenge, you'll be tasked with styling various elements of a web page to create a cohesive and visually appealing theme. Use HTML and CSS to modify the appearance of text, buttons, backgrounds, and other components. Refer to the `skin.png` image in the `images` directory for design inspiration.
+In the Skinning Challenge, challenge is to design the skin of a person using HTML and CSS. You'll be styling various elements of a web page to create a cohesive and visually appealing representation of human skin. Use HTML and CSS to achieve lifelike textures, colors, and shading. Refer to the `skin.png` image in the `images` directory for design inspiration.
 
-![skin](https://github.com/Ace7260/shiny-waddle/blob/main/images/skin.png)
+![Skinning Challenge](https://github.com/Ace7260/shiny-waddle/blob/main/images/skin.png)
+
 
 ### 4. Tuktuk Challenge
 
-In the skinning challenge, you'll be tasked with styling various elements of a web page to create a cohesive and visually appealing theme. Use HTML and CSS to modify the appearance of text, buttons, backgrounds, and other components. Refer to the `tuktuk.png` image in the `images` directory for design inspiration.
+For the Tuktuk challenge, you'll be tasked with styling various elements of a web page to create a cohesive and visually appealing theme. Your goal is to design three motorcycle elements using HTML and CSS. Use your creativity to modify the appearance of components to represent these motorcycles. Refer to the `tuktuk.png` image in the `images` directory for design inspiration.
 
-![tuktuk](https://github.com/Ace7260/shiny-waddle/blob/main/images/tuktuk.png)
+![Tuktuk Challenge](https://github.com/Ace7260/shiny-waddle/blob/main/images/tuktuk.png)
 
-### 4. Snake Game template Challenge
 
-In the skinning challenge, you'll be tasked with styling various elements of a web page to create a cohesive and visually appealing theme. Use HTML and CSS to modify the appearance of text, buttons, backgrounds, and other components. Refer to the `snake.png` image in the `images` directory for design inspiration.
+### 5. Snake Game Template Challenge
 
-![snake game](https://github.com/Ace7260/shiny-waddle/blob/main/images/snake.png)
+For the Snake Game Template challenge, your goal is to design a snake game template using HTML and CSS. You'll be tasked with styling various elements of a web page to create a cohesive and visually appealing theme. Modify the appearance of background and other components to suit the snake game template. Refer to the `snake.png` image in the `images` directory for design inspiration.
 
-### 4. Text animation Challenge
+![Snake Game Template Challenge](https://github.com/Ace7260/shiny-waddle/blob/main/images/snake.png)
 
-In the text animation challenge, you'll be tasked with styling various elements of a web page to create a cohesive and visually appealing theme. Use HTML and CSS to modify the appearance of text, buttons, backgrounds, and other components. Refer to the `text-animation.png` image in the `images` directory for design inspiration.
+### 6. Text Animation Challenge
 
-![text animation](https://github.com/Ace7260/shiny-waddle/blob/main/images/text-animation.png)
+In the Text Animation challenge, you'll be tasked with creating visually appealing text animations using HTML and CSS. Use your creativity to design engaging and eye-catching effects. Refer to the `text-animation.png` image in the `images` directory for design inspiration.
 
-### 4. Google Challenge
+![Text Animation Challenge](https://github.com/Ace7260/shiny-waddle/blob/main/images/text-animation.png)
 
-In the Google animation neomorphisme challenge, you'll be tasked with styling various elements of a web page to create a cohesive and visually appealing theme. Use HTML and CSS to modify the appearance of text, buttons, backgrounds, and other components. Refer to the `text-animation.png` image in the `images` directory for design inspiration.
+### 7. Google Challenge
 
-![Google](https://github.com/Ace7260/shiny-waddle/blob/main/images/google.png)
+In the Google Animation Neomorphism challenge, your goal is to produce a Google homepage template using HTML and CSS, inspired by Google's neomorphism design style. You'll be tasked with styling various elements of the web page to create a cohesive and visually appealing theme. Modify the appearance of text, buttons, backgrounds, and other components to achieve the neomorphism effect. Refer to the `google.png` image in the `images` directory for design inspiration.
+
+![Google Challenge](https://github.com/Ace7260/shiny-waddle/blob/main/images/google.png)
 
 ## Instructions
 
 1. Choose a challenge you'd like to work on.
-2. Navigate to the respective directory (`button-challenge`, `square-root-challenge`, or `skinning-challenge`).
+2. Navigate to the respective directory (`button-challenge`, `square-root-challenge`, `skinning-challenge`, `tuktuk-challenge`, `snake-game-template-challenge`, `text-animation-challenge`, or `google-challenge`).
 3. Open the `index.html` file in your preferred code editor.
 4. Modify the HTML and CSS code to complete the challenge objectives.
 5. Test your solution in a web browser to ensure it functions as expected.
@@ -58,5 +60,7 @@ In the Google animation neomorphisme challenge, you'll be tasked with styling va
 - Feel free to be creative and add your personal touch to the challenges.
 - Don't hesitate to ask questions or seek clarification if needed.
 - Have fun coding and improving your HTML/CSS skills!
+- Check out the developer's website [here](https://ace7260.github.io) to see more of their work!
 
 If you have any questions or need assistance, don't hesitate to reach out. Happy coding! 🚀
+
