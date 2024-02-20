@@ -46,6 +46,10 @@ In the Google Animation Neomorphism challenge, your goal is to produce a Google 
 
 ![Google Challenge](https://github.com/Ace7260/shiny-waddle/blob/main/images/google.png)
 
+### 8. Ball
+
+coming soon ...
+
 ## Instructions
 
 1. Choose a challenge you'd like to work on.
