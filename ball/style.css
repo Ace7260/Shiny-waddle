@@ -1,5 +1,66 @@
-* {
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-}
+  * {
+      padding: 0;
+      margin: 0;
+  }
+
+  body {
+      background-color: #1d1d1d;
+  }
+
+  .container {
+      margin: 10% auto;
+      width: 600px;
+      height: 500px;
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+  }
+
+  .bar1 {
+      width: 20px;
+      background-color: white;
+      height: 500px;
+      border-radius: 2rem;
+      box-shadow: 1px 1px 3rem rgb(49, 48, 48);
+  }
+
+  .bar2 {
+      width: 20px;
+      background-color: white;
+      height: 500px;
+      border-radius: 2rem;
+  }
+
+  .boule {
+      width: 100px;
+      height: 100px;
+      box-shadow: 2px 5px 3rem rgb(2, 2, 2);
+      background-color: rgb(243, 9, 9);
+      border-radius: 50%;
+      animation: boule 4s linear;
+      animation-iteration-count: infinite;
+      z-index: -5;
+  }
+
+  @keyframes boule {
+      0% {
+          transform: translateX(0px);
+      }
+
+      25% {
+          transform: translateX(240px);
+      }
+
+      50% {
+          transform: translateX(0px);
+      }
+
+      75% {
+          transform: translateX(-240px);
+          box-shadow: 5px 5px 15px #000000a9;
+      }
+
+      100% {
+          transform: translateX(0px);
+      }
+  }
