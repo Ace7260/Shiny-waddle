@@ -50,6 +50,7 @@ In the Google Animation Neomorphism challenge, your goal is to produce a Google 
 
 In Ball Animation, the goal is to make the ball bounce between the two bars indefinitely.This animation utilizes HTML, CSS to create the bouncing effect. You'll need to implement algorithms for calculating the ball's trajectory and handling collisions with the bars to achieve the desired animation. Refer to the `ball.png` image in the `images` directory for design inspiration.
 
+[👉 Click here to watch the video preview](https://codepen.io/Ace7260/pen/wvNByvX)
 
 ![Ball Animation](https://github.com/Ace7260/shiny-waddle/blob/main/images/ball.png)
 
