@@ -53,6 +53,8 @@ In Ball Animation, the goal is to make the ball bounce between the two bars inde
 
 ![Ball Animation](https://github.com/Ace7260/shiny-waddle/blob/main/images/ball.png)
 
+### 9. Loader
+
 ## Instructions
 
 1. Choose a challenge you'd like to work on.
