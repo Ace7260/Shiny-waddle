@@ -63,7 +63,14 @@ Refer to the `loader.png `image in the `images` directory for design inspiration
 
 ![loader Animation](https://github.com/Ace7260/shiny-waddle/blob/main/images/loader.png)
 
-### 10. Heart beat
+### 10. Heart Beat
+
+The goal of the heart beat animation is to replicate the beating of a human heart. For design inspiration, refer to the `heart.png` image in the `images` directory.
+
+[👉 Click here to see the animation](https://codepen.io/Ace7260/pen/YzMKoKL)
+
+![Heart Design](https://github.com/Ace7260/shiny-waddle/blob/main/images/heart.png)
+
 
 ## Instructions
 
