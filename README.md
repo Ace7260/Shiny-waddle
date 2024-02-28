@@ -63,6 +63,8 @@ Refer to the `loader.png `image in the `images` directory for design inspiration
 
 ![loader Animation](https://github.com/Ace7260/shiny-waddle/blob/main/images/loader.png)
 
+### 10. Heart beat
+
 ## Instructions
 
 1. Choose a challenge you'd like to work on.
